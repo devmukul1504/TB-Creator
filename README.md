@@ -69,7 +69,6 @@ Apps Script receives the optional multi-select as `e.parameters.otherPlatforms` 
 - The creator opportunity copy emphasizes brand collaboration, promotion and commission on eligible purchases.
 - The calculator's 20% rate, 1,000 purchases and ₹999 average value are examples only; the result is not a promise of earnings.
 - The coupon sample is clearly illustrative. Do not publish a real creator code before approval.
-- Add named creator payout records only when genuine figures and permission to publish are available.
 - Confirm commission terms, eligibility, privacy notice, contact details and legal links before launch.
 
 ## Deploy to Vercel
