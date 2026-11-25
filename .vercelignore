@@ -1,0 +1,45 @@
+# Documentation & Project Notes
+README.md
+PROJECT_REQUIREMENTS.md
+*.docx
+*.pdf
+*.md
+
+# Internal Scratch & Showcase Demos
+scratch/
+scratch/**
+
+# Backend Scripts & Non-Web Integrations
+integrations/
+tmp/
+temp/
+.temp/
+
+# Python & Testing Artifacts
+__pycache__/
+*.py
+*.py[cod]
+.pytest_cache/
+.playwright/
+
+# Git & Version Control
+.git/
+.gitignore
+.gitattributes
+.vercelignore
+.vercel/
+.vercel/**
+
+# Environment & Local Secrets
+.env*
+*.local
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+
+# OS Specific & Log Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

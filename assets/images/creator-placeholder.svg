@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edf8fa" />
+      <stop offset="60%" stop-color="#e2f3f6" />
+      <stop offset="100%" stop-color="#d3edf2" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b8c9" />
+      <stop offset="100%" stop-color="#008e9e" />
+    </linearGradient>
+  </defs>
+  <!-- Background Card -->
+  <rect width="400" height="500" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Grid / Pattern Accents -->
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#00b8c9" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.3" />
+  <circle cx="200" cy="200" r="110" fill="none" stroke="#00b8c9" stroke-width="1.5" opacity="0.2" />
+  
+  <!-- Central Creator Silhouette Circle -->
+  <circle cx="200" cy="180" r="64" fill="#ffffff" filter="drop-shadow(0 8px 16px rgba(0, 142, 158, 0.12))" />
+  
+  <!-- Head -->
+  <circle cx="200" cy="162" r="24" fill="url(#avatarGrad)" />
+  
+  <!-- Shoulders -->
+  <path d="M164 216c0-19.88 16.12-36 36-36s36 16.12 36 36" fill="url(#avatarGrad)" />
+  
+  <!-- Sparkle Accent -->
+  <path d="M260 120l4 12 12 4-12 4-4 12-4-12-12-4 12-4z" fill="#f59e0b" opacity="0.85" />
+  <circle cx="140" cy="130" r="4" fill="#00b8c9" opacity="0.6" />
+
+  <!-- Creator Badge Pill -->
+  <rect x="120" y="270" width="160" height="30" rx="15" fill="#ffffff" stroke="#cbe8ee" stroke-width="1" />
+  <text x="200" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#008e9e" letter-spacing="0.5">TESTBOOK CREATOR</text>
+  
+  <!-- Bottom Shimmer Skeleton Lines -->
+  <rect x="80" y="325" width="240" height="12" rx="6" fill="#cbe8ee" opacity="0.7" />
+  <rect x="110" y="347" width="180" height="10" rx="5" fill="#cbe8ee" opacity="0.5" />
+</svg>
